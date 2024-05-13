@@ -1,0 +1,58 @@
+$ vragrant up
+$ vagrant ssh web01
+vagrant@ubuntu-bionic:~$ sudo -i
+root@ubuntu-bionic:~# ifconfig
+root@ubuntu-bionic:~# ip addr show
+
+root@ubuntu-bionic:~# ping 192.168.40.11
+
+root@ubuntu-bionic:~# vi /etc/hosts
+root@ubuntu-bionic:~# pind db01
+
+$ tracert www.google.in
+
+$ vagrant ssh web01
+
+vagrant@ubuntu-bionic:~$ netstat -antp
+
+vagrant@ubuntu-bionic:~$ sudo -i
+root@ubuntu-bionic:~# netstat -antp
+
+root@ubuntu-bionic:~# ps -ef | grep apache2
+
+root@ubuntu-bionic:~# netstat -antp | grep 3336
+root@ubuntu-bionic:~# ss -tunlp
+
+root@ubuntu-bionic:~# nmap
+
+root@ubuntu-bionic:~#  sudo apt install nmap -y
+
+root@ubuntu-bionic:~# nmap
+
+root@ubuntu-bionic:~# nmap localhost
+
+root@ubuntu-bionic:~# nmap db01
+
+root@ubuntu-bionic:~# dig www.google.com
+
+
+root@ubuntu-bionic:~# nslookup www.google.com
+
+
+root@ubuntu-bionic:~# route -n
+
+root@ubuntu-bionic:~# route
+
+root@ubuntu-bionic:~# arp
+
+root@ubuntu-bionic:~# mtr
+root@ubuntu-bionic:~# logout
+vagrant@ubuntu-bionic:~$ logout
+
+$ vagrant ssh web01
+
+
+vagrant@ubuntu-bionic:~$ sudo -i
+root@ubuntu-bionic:~# mtr www.google.com
+root@ubuntu-bionic:~# nmap db01
+root@ubuntu-bionic:~# telnet 192.168.40.12 22
